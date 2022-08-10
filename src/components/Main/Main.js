@@ -1,12 +1,14 @@
 import './Main.css'
-import ContactCards from '../ContactCard/ContactData'
 import ClickCounter from '../ClickCounter/ClickCounter'
+import ApiContact from '../ApiContact/ApiContact'
+import ContactCard from '../ContactCard/ContactCard'
 
 function Main() {
     return (
         <main>
+            <ApiContact />
             <ClickCounter />
-            <ContactCards />
+            <ContactCard />
         </main>
     )
 }
