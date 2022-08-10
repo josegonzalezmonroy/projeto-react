@@ -2,12 +2,10 @@ import './Button.css'
 
 
 function handleClick(event) {
-    console.log(event)
     console.log('Clicado!')
 }
 
 function handleOver(event){
-    console.log(event)
     console.log('Passou por cima')
 }
 
