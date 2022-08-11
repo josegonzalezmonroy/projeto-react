@@ -1,5 +1,4 @@
-import React from "react"
-import { useState } from "react"
+import React, { useState } from "react"
 import Button from "../Button/Button"
 import './ContactCard.css'
 
@@ -18,6 +17,7 @@ export default function ContactCard() {
             )
     })
 
+
     return (
         <div className="contact-cardd">
             {contact.map((contacts) => {
@@ -27,13 +27,14 @@ export default function ContactCard() {
                             <li className="contact-item">Nome: {contacts.name}</li>
                             <li className="contact-item">Telefone: {contacts.telefone}</li>
                             <li className="contact-item">Email: {contacts.email}</li>
-
-                            </ul>
+                        </ul>
                         <Button />
                     </div>
 
                 )
-            })}
+            }
+            )
+            }
         </div>
     )
 }
