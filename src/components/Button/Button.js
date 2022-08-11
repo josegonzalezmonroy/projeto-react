@@ -12,8 +12,10 @@ function handleOver(event){
 function Button() {
     return (
         <div>
-            <button onClick={handleClick} >Me clique</button>
-            <button onMouseOver={handleOver} >Me clique 2</button>
+            <button onMouseOver={handleOver} >Cadastrar</button>
+            <button onClick={handleClick} >Editar</button>
+            <button onClick={handleClick} >Apagar</button>
+
         </div>
     )
 }

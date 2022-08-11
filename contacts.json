@@ -1,0 +1,52 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Cosme Fulanito",
+      "email": "user1@email.com",
+      "telefone": "010101"
+    },
+    {
+      "id": 2,
+      "name": "Elsa Pato",
+      "email": "elsapato@email.com",
+      "telefone": "020202"
+    },
+    {
+      "id": 3,
+      "name": "user3",
+      "email": "email3@user3.com",
+      "telefone": "030303"
+    },
+    {
+      "id": 4,
+      "name": "user4",
+      "email": "email4@user4.com",
+      "telefone": "040404"
+    },
+    {
+      "id": 5,
+      "name": "user1",
+      "email": "email1@user1.com",
+      "telefone": "010101"
+    },
+    {
+      "name": "user5",
+      "email": "email5@user5.com",
+      "telefone": "050505",
+      "id": 6
+    },
+    {
+      "name": "user5",
+      "email": "email5@user5.com",
+      "telefone": "050505",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "user8",
+      "email": "email8@user8.com",
+      "telefone": "050505"
+    }
+  ]
+}
