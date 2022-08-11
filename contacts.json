@@ -1,12 +1,6 @@
 {
   "contacts": [
     {
-      "id": 1,
-      "name": "Cosme Fulanito",
-      "email": "cosmefulanito@email.com",
-      "telefone": "010101"
-    },
-    {
       "id": 2,
       "name": "Elsa Pato",
       "email": "elsapato@email.com",
@@ -34,12 +28,6 @@
       "name": "user5",
       "email": "email5@user5.com",
       "telefone": "050505",
-      "id": 6
-    },
-    {
-      "name": "user5",
-      "email": "email5@user5.com",
-      "telefone": "050505",
       "id": 7
     },
     {
@@ -47,12 +35,6 @@
       "name": "user8",
       "email": "email8@user8.com",
       "telefone": "050505"
-    },
-    {
-      "name": "pedro",
-      "email": "perez",
-      "telefone": "12345",
-      "id": 9
     },
     {
       "name": "Simon",
@@ -89,18 +71,6 @@
       "email": "",
       "telefone": "",
       "id": 15
-    },
-    {
-      "name": "ewewewewe",
-      "email": "wewewewe",
-      "telefone": "wewewe",
-      "id": 16
-    },
-    {
-      "name": "wewe",
-      "email": "wewew",
-      "telefone": "8545",
-      "id": 17
     },
     {
       "name": "wdsdsd",
@@ -155,12 +125,6 @@
       "email": "",
       "telefone": "",
       "id": 26
-    },
-    {
-      "name": "hols ",
-      "email": "perola",
-      "telefone": "kdkdkd",
-      "id": 27
     }
   ]
 }

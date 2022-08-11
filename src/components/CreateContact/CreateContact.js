@@ -32,10 +32,6 @@ export default function CreateContact() {
         }
     }
 
-
-
-
-
     return (
         <div>
             <form className="create-contact">
