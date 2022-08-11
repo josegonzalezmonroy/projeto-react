@@ -22,8 +22,8 @@ export default function ContactCard() {
         <div className="contact-cardd">
             {contact.map((contacts) => {
                 return (
-                    <div className="contact-card">
-                        <ul key={contacts.id}>
+                    <div key={contacts.id} className="contact-card">
+                        <ul>
                             <li className="contact-item">Nome: {contacts.name}</li>
                             <li className="contact-item">Telefone: {contacts.telefone}</li>
                             <li className="contact-item">Email: {contacts.email}</li>
