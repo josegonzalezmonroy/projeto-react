@@ -36,13 +36,8 @@ export default function CreateContact() {
         <div>
             <form className="create-contact">
                 <label>Nome: <input type='text' value={newName} onChange={(e) => setNewName(e.target.value)} /></label>
-                <span>{newName}</span><br></br>
-
                 <label>Email: <input type='text' value={newEmail} onChange={(e) => setNewEmail(e.target.value)} /></label>
-                <span>{newEmail}</span><br></br>
-
                 <label>Telefone: <input type='text' value={newTelefone} onChange={(e) => setNewTelefone(e.target.value)} /></label>
-                <span>{newTelefone}</span><br></br>
             </form>
             <button type="submit" onClick={handleSubmit} >Criar contato</button>
 
