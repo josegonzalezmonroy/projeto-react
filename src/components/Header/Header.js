@@ -4,7 +4,7 @@ import './Header.css'
 
 function Header() {
     return (
-        <header>
+        <header className='header-content'>
             <nav>
                 <Link to='/'>{/*Deixei uma pequena navegação entre a página principal e o 'CreateContact'*/}
                     <button>Inicio</button>
