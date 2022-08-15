@@ -1,0 +1,14 @@
+.form-edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: .25rem;
+    border-radius: .35rem;
+}
+button{
+    border-radius: .25rem;
+    font-size: .9rem;
+}

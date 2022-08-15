@@ -1,6 +1,5 @@
 import Main from '../Main/Main';
 import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import CreateContact from '../CreateContact/CreateContact';
@@ -16,7 +15,6 @@ function App() {
             <Route path='/newcontact' element={<CreateContact />} />
           </Routes>
         </div>
-        <Footer />
       </Router>
     </div>
   );

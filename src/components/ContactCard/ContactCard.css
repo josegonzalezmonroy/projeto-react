@@ -1,5 +1,4 @@
 .card-contact{
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,10 +7,28 @@
 
 .contact-content{
     display: flex;
-    
+    margin: auto;
+    width: 50%;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 1rem;
 }
 
 .contact-item{
     list-style: none;
     text-align: start;
+}
+
+.button-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    font-size: 1.25rem;
+}
+
+.description{
+    font-size: 1.5rem;
 }

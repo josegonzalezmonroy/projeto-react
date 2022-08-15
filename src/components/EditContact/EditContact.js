@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './EditContact.css'
 
 export default function EditContact({ id, newName, newEmail, newTelefone, showContactsList, pushData }) {
 
@@ -27,7 +28,7 @@ export default function EditContact({ id, newName, newEmail, newTelefone, showCo
     return (
         <div>
             <div>
-                <form>
+                <form className="form-edit">
                     <label>Nome:<input type='text' defaultValue={newName}
                         onChange={(e) => setEditName(e.target.value)}
                     ></input></label>

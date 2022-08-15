@@ -39,21 +39,20 @@ export default function ContactCard() {
 
     return (
         <div>
-            <h1>Lista de contatos</h1>
+            <h1>Agenda de contatos</h1>
 
-            <div className="contactsList"> 
+            <div>
                 {contactsList && <EditContact pushData={pushData} contactsList={contactsList} showContactsList={showContactsList} id={id} newName={newName} newEmail={newEmail} newTelefone={newTelefone} />}
 
                 {contact.map((contacts) => {
                     return (
                         <div className="contact-content" key={contacts.id}>
                             <ul className="card-contact">
-                                <li className="contact-item">Id: {contacts.id}</li>
-                                <li className="contact-item">Nome: {contacts.name}</li>
-                                <li className="contact-item">Email: {contacts.email}</li>
-                                <li className="contact-item">Telefone: {contacts.telefone}</li>
+                                <li className="contact-item"><span className="title">Nome: </span> <span className="description">{contacts.name}</span></li>
+                                <li className="contact-item"><span className="title">Email: </span><span className="description">{contacts.email}</span></li>
+                                <li className="contact-item"><span className="title">Telefone: </span><span className="description">{contacts.telefone}</span></li>
                             </ul>
-                            
+                            <div className="button-content">
                                 <button onClick={() => {
                                     pushData()
                                     showContactsList()
@@ -68,6 +67,7 @@ export default function ContactCard() {
                                     handleDelete(contacts.id)
                                 }}>Excluir</button>
 
+                            </div>
 
                         </div>
                     )

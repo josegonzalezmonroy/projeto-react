@@ -1,46 +1,22 @@
 {
   "contacts": [
     {
-      "name": "JOSE GREGORIO GONZALEZ MONROY",
-      "email": "josegonzalezmonroy@gmail.com",
-      "telefone": "84981023268",
-      "id": 9
+      "name": "Pedro",
+      "email": "pedro@mail.com",
+      "telefone": "(01)234567",
+      "id": 1
     },
     {
-      "name": "JOSE GREGORIO GONZALEZ MONROY",
-      "email": "josegonzalezmonroy@gmail.com",
-      "telefone": "84981023268",
-      "id": 10
+      "name": "Ana",
+      "email": "ana@mail.com",
+      "telefone": "(98)76544312",
+      "id": 2
     },
     {
-      "name": "JOSE GREGORIO GONZALEZ MONROY",
-      "email": "josegonzalezmonroy@gmail.com",
-      "telefone": "84981023268",
-      "id": 11
-    },
-    {
-      "name": "",
-      "email": "",
-      "telefone": "",
-      "id": 12
-    },
-    {
-      "name": "JOSE GREGORIO GONZALEZ MONROY",
-      "email": "josegonzalezmonroy@gmail.com",
-      "telefone": "84981023268",
-      "id": 13
-    },
-    {
-      "name": "",
-      "email": "",
-      "telefone": "",
-      "id": 14
-    },
-    {
-      "name": "",
-      "email": "",
-      "telefone": "",
-      "id": 15
+      "name": "Manuela",
+      "email": "manuela@mail.com",
+      "telefone": "(25)256546",
+      "id": 3
     }
   ]
 }
