@@ -1,13 +1,18 @@
 import React from 'react'
-import ClickCounter from '../ClickCounter/ClickCounter'
+import { Link } from 'react-router-dom'
 import './Header.css'
 
 function Header() {
     return (
         <header>
-            <h2> Eu sou o Header</h2>
-            <ClickCounter />
-
+            <nav>
+                <Link to='/'>{/*Deixei uma pequena navegação entre a página principal e o 'CreateContact'*/}
+                    <button>Inicio</button>
+                </Link>
+                <Link to='/newcontact'>
+                    <button>Criar contato</button>
+                </Link>
+            </nav>
         </header>
     )
 }

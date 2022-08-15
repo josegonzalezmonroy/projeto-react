@@ -1,14 +1,23 @@
-import Header from '../Header/Header';
 import Main from '../Main/Main';
-import Footer from '../Footer/Footer';
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import CreateContact from '../CreateContact/CreateContact';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Footer />
+      <Router>
+        <Header />
+        <div className='content'>
+          <Routes>
+            <Route path="/*" element={<Main />} />
+            <Route path='/newcontact' element={<CreateContact />} />
+          </Routes>
+        </div>
+        <Footer />
+      </Router>
     </div>
   );
 }

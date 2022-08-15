@@ -1,9 +1,8 @@
 import './Footer.css'
-
 function Footer(){
     return(
         <footer>
-            <h3>Eu sou o footer</h3>
+            <h5>Realizado por Jose Gonzalez</h5>
         </footer>
     )
 }

@@ -1,9 +1,14 @@
-.contact-card{
+.card-contact{
     background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content:space-between;
+}
+
+.contact-content{
+    display: flex;
+    
 }
 
 .contact-item{

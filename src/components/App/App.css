@@ -3,3 +3,16 @@
   padding: 0;
   text-align: center;
 }
+
+.nav{
+  background-color: orangered;
+  height: 2rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+button{
+  padding: .15rem;
+  margin: .5rem;
+}

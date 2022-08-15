@@ -1,3 +1,15 @@
 .create-contact{
+    background-color: aquamarine;
     list-style: none;
+    padding: 2rem;   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-create{
+    display: flex;
+    align-items: center;
+
 }
