@@ -1,20 +1,19 @@
-import Main from '../Main/Main';
-import Header from '../Header/Header'
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Header from '../Header/Header'
 import CreateContact from '../CreateContact/CreateContact';
+import ContactCard from '../ContactCard/ContactCard';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Header />
-        <div className='content'>
-          <Routes>
-            <Route path="/*" element={<Main />} />
-            <Route path='/newcontact' element={<CreateContact />} />
-          </Routes>
-        </div>
+        <h1>Agenda de contatos</h1>
+        <Routes>
+          <Route path="/*" element={<ContactCard />} />
+          <Route path='/newcontact' element={<CreateContact />} />
+        </Routes>
       </Router>
     </div>
   );
