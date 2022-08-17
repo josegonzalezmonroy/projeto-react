@@ -4,7 +4,13 @@
   text-align: center;
 }
 
-.nav{
+h1 {
+  text-align: center;
+  height: 3rem;
+  margin: .75rem 0 .75rem;
+}
+
+.nav {
   background-color: orangered;
   height: 2rem;
   width: auto;
@@ -12,7 +18,7 @@
   align-items: center;
 }
 
-button{
+button {
   padding: .15rem;
   margin: .5rem;
 }

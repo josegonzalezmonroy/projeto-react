@@ -38,7 +38,7 @@ export default function ContactCard() {
         return a.name.localeCompare(b.name)}
     )
 
-    const filtro = contact.filter(//filter para procurar contatos
+    const filtro = orderedList.filter(//filter para procurar contatos
         (itens)=>itens.name.toLowerCase().includes(searchContact.toLowerCase()))
 
     function showContactsList() {//função para condicionar a renderização do componente 'EditContact'
